@@ -1,1 +1,0 @@
-mvn -B archetype:generate -Dpackage=edu.eci.cvds.tdd -DgroupId=edu.eci.cvds -DartifactId=ClasesEquivalencia -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
