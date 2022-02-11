@@ -1,5 +1,5 @@
 # Ignoring directories
-ClasesEquivalencia/target/
+Lab03CVDS/ClasesEquivalencia/target/
 
 # Ignoring files by extension
 *.classpath
