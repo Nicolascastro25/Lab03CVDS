@@ -1,0 +1,40 @@
+# Ignoring directories
+ClasesEquivalencia/target/
+
+# Ignoring files by extension
+*.classpath
+*.idea
+*.settings
+
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# IntelliJ
+out/
+
+
+### Intellij Patch ###
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+
+# Markdown Navigator plugin
+.idea/**/markdown-navigator.xml
+.idea/**/markdown-navigator-enh.xml
+.idea/**/markdown-navigator/
+
+# Cache file creation bug
+.idea/$CACHE_FILE$
+
+
+
+### Notepad ###
+# Notepad++ backups #
+*.bak
