@@ -1,5 +1,5 @@
 package edu.eci.cvds.tdd.registry;
-import java.util.*;
+import java.util.ArrayList;
 
 /**
  * Person representation Class
@@ -41,7 +41,7 @@ public class Person {
     /**
      * list of id
      */
-    public ArrayList<int> ids;
+    public Arraylist<Integer> ids;
 
     /**
      * A person constructor with all the information
@@ -58,7 +58,7 @@ public class Person {
         this.age = age;
         this.gender = gender;
         this.alive = alive;
-        Arraylist<int> ids = new Arraylist<>();
+        Arraylist<Integer> ids = new Arraylist<>();
     }
 
     /**
