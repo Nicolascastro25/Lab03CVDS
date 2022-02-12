@@ -56,4 +56,4 @@ public class RegistryTest {
         RegisterResult result = registry.registerVoter(person);
         Assert.assertEquals(RegisterResult.DUPLICATED, result);
     }
-}
+

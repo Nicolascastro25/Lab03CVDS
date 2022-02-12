@@ -1,4 +1,5 @@
 package edu.eci.cvds.tdd.registry;
+import java.util.*;
 
 /**
  * Person representation Class
@@ -38,6 +39,11 @@ public class Person {
     }
 
     /**
+     * list of id
+     */
+    public ArrayList<int> ids;
+
+    /**
      * A person constructor with all the information
      *
      * @param name the name
@@ -52,6 +58,7 @@ public class Person {
         this.age = age;
         this.gender = gender;
         this.alive = alive;
+        Arraylist<int> ids = new Arraylist<>();
     }
 
     /**
@@ -113,8 +120,12 @@ public class Person {
      * 
      * @param id the identification Number to set
      */
-    public void setId(int id) {
-        this.id = id;
+    public void setId(int idnew) {
+        if(ids.contains(idnew)){}
+        else{
+            this.id = idnew;
+            ids.add(idnew);
+        }
     }
 
     /**

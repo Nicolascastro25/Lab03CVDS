@@ -11,7 +11,7 @@ import org.junit.Test;
 
 /**
  *
- * @author Jaime Castro
+ * @author Jaime Castro Valentina Alvarado
  */
 public class TarifasTest {
 
