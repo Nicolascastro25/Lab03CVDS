@@ -41,7 +41,7 @@ public class Person {
     /**
      * list of id
      */
-    public Arraylist<Integer> ids;
+    public ArrayList<Integer> ids;
 
     /**
      * A person constructor with all the information
@@ -58,7 +58,7 @@ public class Person {
         this.age = age;
         this.gender = gender;
         this.alive = alive;
-        Arraylist<Integer> ids = new Arraylist<>();
+        ArrayList<Integer> ids = new ArrayList<>();
     }
 
     /**
